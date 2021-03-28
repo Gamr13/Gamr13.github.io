@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #eaeaea;
+  background: #f5f5f5;
   background-repeat: no-repeat;
 }
 
@@ -29,6 +29,10 @@ body {
     color: #07415d;
   }
 
+  .card-title {
+    text-transform: uppercase;
+  }
+
   .card-img-top {
     height: 200px;
     object-fit: cover;
@@ -36,6 +40,11 @@ body {
 
   .card-text {
     min-height: 100px;
+  }
+
+  &.games {
+    background: #e1e7f1;
+
   }
 }
 

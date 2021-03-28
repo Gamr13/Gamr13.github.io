@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #eaeaea;
+  background: #f5f5f5;
   background-repeat: no-repeat;
 }
 
@@ -28,6 +28,11 @@ body {
   color: #07415d;
 }
 
+.apps .card-title,
+.games .card-title {
+  text-transform: uppercase;
+}
+
 .apps .card-img-top,
 .games .card-img-top {
   height: 200px;
@@ -38,6 +43,11 @@ body {
 .apps .card-text,
 .games .card-text {
   min-height: 100px;
+}
+
+.apps.games,
+.games.games {
+  background: #e1e7f1;
 }
 
 .footer {
