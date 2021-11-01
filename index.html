@@ -1,95 +1,312 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title>Gamr13's Repo</title>
-    <!-- Required Meta Tags -->
+    <title>
+        Gamr13's Repo
+    </title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header py-2">
-    <nav class="navbar navbar-expand-lg navbar-dark  container">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">gamr13<i class="bi bi-code-slash ms-2"></i></a>
-          <img src="./img/Rick.gif" height="70px" width="70px"></img>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto mt-3 mt-md-0">
-                <li class="nav-item">
-                  <a class="nav-link text-white ms-lg-3" href="https://forms.gle/uigzj4RAUZw3pU839">Whitelist</a>
-                 </li>
+    <header class="header py-2">
+        <nav class="navbar navbar-expand-lg navbar-dark  container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">gamr13<i class="bi bi-code-slash ms-2"></i></a>
+                <img src="./img/Rick.gif" height="70px" width="70px"></img>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <li class="nav-item ">
-                  <a class="nav-link text-white ms-lg-3" href="https://discord.com/invite/cmVZuhj"
-                    target="_blank">Discord</a>
-                  </li>
-                <li class="nav-item ">
-                  <a class="nav-link text-white ms-lg-3" href="https://www.paypal.com/paypalme/TobyMCS"
-                  target="_blank">Donate</a>
-                </li>
-                <embed name="Music" src="music.mp3" width="0" height="0" loop="true" autostart="true">
-              </ul>
-          </div>
-        </div>
-    </nav>
-  </header>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mt-3 mt-md-0">
 
-  <!-- APP SECTION -->
-  <section class="apps py-4">
-    <div class="container" id="apps">
-      <div class="title my-3" data-aos="fade-in" data-aos-delay="200">APPS</div>
-        
-      <!-- Warning Box -->
-      <div class="alert col-md-6 my-1">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-          White / Green store page? REFRESH first, or <a href="https://forms.gle/uigzj4RAUZw3pU839"> CLICK HERE!</a>
-      </div>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-lg-3" href="https://forms.gle/uigzj4RAUZw3pU839">Whitelist</a>
+                        </li>
 
-      <div class="row">
-                
-        <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
-          <div class="card text-center">
-            <img class="card-img-top" src="./img/retroarch.png" alt="RetroArch">
-            <div class="card-body">
-              <h5 class="card-title"> RetroArch</h5>
-              <p class="card-text">RetroArch is a multi-emulator frontend.</p>
-              <div class="row justify-content-around">
-                <a href="ms-windows-store://pdp/?productid=9NB4B2WB2DMP" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
-                <a data-bs-toggle="modal" data-bs-target="#retroarch" class="col-md-5 btn btn-success">Guide</a>
-              </div>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white ms-lg-3" href="https://discord.com/invite/cmVZuhj" target="_blank">Discord</a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link text-white ms-lg-3" href="https://www.paypal.com/paypalme/TobyMCS" target="_blank">Donate</a>
+                        </li>
+
+                        <!--<embed name="Music" src="music.mp3" width="0" height="0" loop="true" autostart="true">-->
+                        <iframe src="music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+                        </iframe>
+
+                    </ul>
+                </div>
             </div>
-          </div>
+        </nav>
+    </header>
+
+
+
+    <!-- === APP / GAME SECTION -->
+    <section class="apps py-4">
+        <div class="container" id="app">
+            <div class="title my-3" data-aos="fade-in" data-aos-delay="200">APPS</div>
+
+            <!-- === WARNINGS SECTION === -->
+            <div class="alert col-md-6 my-1">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> White / Green store page? REFRESH first, or <a href="https://forms.gle/uigzj4RAUZw3pU839"> CLICK HERE!</a>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/retroarch.png" alt="Retroarch">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                RetroArch
+                            </h5>
+                            <p class="card-text">
+                                RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9NL1MZC0HMDT" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" href="https://discord.gg/qKABJuku" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="600">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/pspppGold.jpg" alt="PPSSPP">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                PPSPP
+                            </h5>
+                            <p class="card-text">
+                                PPSSPP is a free and open-source PSP emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9PL5DFSQ3MMC" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#psppp" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="600">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/duck.png" alt="DuckStation">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                DuckStation
+                            </h5>
+                            <p class="card-text">
+                                Standalone PS1 Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9N37CQMD0FFM" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#duckstation" class="col-md-5 btn btn-success disabled">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/FTP.jpg" alt="FTP">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Durango FTP
+                            </h5>
+                            <p class="card-text">
+                                The File Transfer Protocol (FTP) is a standard network protocol used for the transfer of computer files between a client and server on a computer network.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9PGR0L9LNJM2" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#durango" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/kodi.jpg" alt="Kodi">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Kodi Leia
+                            </h5>
+                            <p class="card-text">
+                                Older version of Kodi that supports 4K.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9NN82C3QH4VP" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#kodi" class="col-md-5 btn btn-success disabled">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/kodi.jpg" alt="Kodi">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Kodi Matrix
+                            </h5>
+                            <p class="card-text">
+                                Newer version of Kodi that supports 4K.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9PJGZNQS8LFH" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#kodi" class="col-md-5 btn btn-success disabled">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Apps Section -->
+    </section>
+
+    <section class="games py-4">
+        <div class="container" id="game">
+            <div class="row">
+                <div class="title my-3" data-aos="fade-in" data-aos-delay="200">Games</div>
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/am2r.jpg" alt="AM2R">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                AM2R
+                            </h5>
+                            <p class="card-text">
+                                Another Metroid 2 Remake.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9NK7L42R9450" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#AM2R" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/sonic1.jpg" alt="Sonic 1">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic 1
+                            </h5>
+                            <p class="card-text">
+                                A port of the Christian Whitehead remake You'll need to place the Data.rsdk file in LocalState to run this port.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9NLQ0NVKR95K" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#Sonic1" class="col-md-5 btn btn-success ">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/sonic2.jpg" alt="Sonic 2">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic 2
+                            </h5>
+                            <p class="card-text">A port of the Christian Whitehead remake. You'll need to place the Data.rsdk file in LocalState to run this port.</p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9NVFF0XLJ94W" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#Sonic2" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/soniccd.png" alt="Sonic CD">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic CD
+                            </h5>
+                            <p class="card-text">
+                                A port of the Christian Whitehead remake. You'll need to place the Data.rsdk file in LocalState to run this port.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9NZ2LXM716DW" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#SonicCD" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/hode.jpg" alt="HeartofDarkness">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Heart of Darkness
+                            </h5>
+                            <p class="card-text">
+                                Heart of Darkness is a cinematic platform video game developed by French developer Amazing Studio.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9P87FJM5MSJP" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#hode" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/openLara.jpg" alt="OpenLara">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                OpenLara
+                            </h5>
+                            <p class="card-text">Classic Tomb Raider open-source engine.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="ms-windows-store://pdp/?productid=9N9QSKCP84TG" class="col-md-5 mb-md-0 mb-3 btn btn-secondary">Download App</a>
+                                <a data-bs-toggle="modal" data-bs-target="#OpenLara" class="col-md-5 btn btn-success">Guide</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-  </section>
-  <!-- App Section END-->
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer py-3">
-    <div class="container">
-      <span>All rights reserved - Gamr13 </span>
-      <script>document.write(new Date().getFullYear())</script>
-    </div>
-  </footer>
+    <footer class="footer py-3">
+        <div class="container">
+            <span>All rights reserved - gamr13 - <script>
+          document.write(new Date().getFullYear())
+        </script></span>
+        </div>
+    </footer>
 
-  <!-- Optionsl JavaScript // Bootstrap5 JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AO5.init({
-      once: true
-    });
-  </script>
+    <!-- Optional JavaScript -->
+    <!-- Bootstrap5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
 </body>
+
 </html>
