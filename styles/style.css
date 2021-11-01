@@ -1,90 +1,100 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background: #000000;
-  background-repeat: no-repeat;
+    background: #6699ff;
+    background-repeat: no-repeat;
 }
 
 .header {
-  background-color: #A93226;
-  text-align: center;
-  color: #fff;
+    background-color: #003399;
+    text-align: center;
+    color: #fff;
 }
 
 .header .logo {
-  -webkit-filter: invert(1);
-          filter: invert(1);
-  max-height: 100px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    max-height: 100px;
 }
 
 .apps .title,
 .games .title {
-  border-left: 8px solid #3c0077;
-  padding-left: 0.8rem;
-  font-size: 2.5rem;
-  font-weight: 500;
-  color: #ffffff;
+    border-left: 8px solid #003399;
+    padding-left: 0.8rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #ffffff;
 }
 
 .apps .card-title,
 .games .card-title {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .apps .card-img-top,
 .games .card-img-top {
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .apps .card-text,
 .games .card-text {
-  min-height: 100px;
+    min-height: 100px;
 }
 
 .apps.games,
 .games.games {
-  background: #C0392B;
+    background: #80aaff;
 }
 
 .footer {
-  background-color: #3c0077;
-  text-align: center;
-  color: #fff;
+    background-color: #003399;
+    text-align: center;
+    color: #fff;
 }
+
+
 /*# sourceMappingURL=style.css.map */
 
+
 /* The alert message box */
+
 .alert {
-  padding: 20px;
-  background-color: #f44336; /* Red */
-  color: white;
-  margin-bottom: 15px;
+    padding: 20px;
+    background-color: #f44336;
+    /* Red */
+    color: white;
+    margin-bottom: 15px;
 }
 
 .alert2 {
-  padding: 20px;
-  background-color: #5F9EFF; /* Blue */
-  color: white;
-  margin-bottom: 15px;
+    padding: 20px;
+    background-color: #5F9EFF;
+    /* Blue */
+    color: white;
+    margin-bottom: 15px;
 }
+
 
 /* The close button */
+
 .closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+
 /* When moving the mouse over the close button */
+
 .closebtn:hover {
-  color: black;
+    color: black;
 }
