@@ -5,6 +5,9 @@ html {
 body {
     background: #6699ff;
     background-repeat: no-repeat;
+
+    background-image: url('https://johnjohnston.info/106/wp-content/uploads/2013/08/tinaeyes.gif');
+    background-size: cover;
 }
 
 .header {
