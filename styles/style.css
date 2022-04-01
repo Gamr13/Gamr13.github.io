@@ -5,13 +5,10 @@ html {
 body {
     background: #6699ff;
     background-repeat: no-repeat;
-
-    background-image: url('https://c.tenor.com/dxA2j-gsp4oAAAAC/glitch-static.gif');
-    background-size: cover;
 }
 
 .header {
-    background-color: #C30000;
+    background-color: #003399;
     text-align: center;
     color: #fff;
 }
@@ -41,17 +38,11 @@ body {
     height: 200px;
     -o-object-fit: cover;
     object-fit: cover;
-    opacity: .1;
 }
 
 .apps .card-text,
 .games .card-text {
     min-height: 100px;
-    opacity: .1;
-}
-
-.card-body{
-    opacity: .1;
 }
 
 .apps.games,
@@ -60,7 +51,7 @@ body {
 }
 
 .footer {
-    background-color: #C30000;
+    background-color: #003399;
     text-align: center;
     color: #fff;
 }
