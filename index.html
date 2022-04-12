@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- JS Modules -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -49,11 +52,14 @@
                         <li class="nav-item ">
                             <a class="nav-link text-white ms-lg-3" href="https://youtube.com/c/gamr13" target="_blank">YouTube</a>
                         </li>
-
-                        <!--<embed name="Music" src="music.mp3" width="0" height="0" loop="true" autostart="true">-->
+                        
+                        <!--                                   Unneeded
+                        <embed name="Music" src="music.mp3" width="0" height="0" loop="true" autostart="true">
                         <iframe src="music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-                        </iframe>
-
+                        </iframe> -->
+                        <audio id="musicID" loop>
+                            <source src="music.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+                        </audio>
                     </ul>
                 </div>
             </div>
@@ -373,6 +379,8 @@
             once: true
         });
     </script>
+<!--        Use this script for 2 popups (second one with a timer and music starts after 1 second       <script>document.addEventListener('click', clicked); function clicked(){Swal.close();document.removeEventListener('click', clicked);Swal.fire({icon: 'success',title: 'Success!',text: 'Enjoy your apps',timer: 1000,timerProgressBar: true,allowOutsideClick: false,allowEscapeKey: false,allowEnterKey: false,showConfirmButton: false,}).then((result)=>{if(result.dismiss===Swal.DismissReason.timer){document.getElementById('musicID').play();}});}</script>-->
+<!--        Use this script for 1 popup (music starts immediately after pressing ok)                    --><script> document.addEventListener('click', clicked); function clicked(){Swal.close();document.removeEventListener('click', clicked);document.getElementById('musicID').play();}</script>
 </body>
 
 </html>
