@@ -379,9 +379,9 @@
             once: true
         });
     </script>
-<!--        Use this script for 2 popups (second one with a timer and music starts after 1 second       <script>document.addEventListener('click', clicked); function clicked(){Swal.close();document.removeEventListener('click', clicked);Swal.fire({icon: 'success',title: 'Success!',text: 'Enjoy your apps',timer: 1000,timerProgressBar: true,allowOutsideClick: false,allowEscapeKey: false,allowEnterKey: false,showConfirmButton: false,}).then((result)=>{if(result.dismiss===Swal.DismissReason.timer){document.getElementById('musicID').play();}});}</script>-->
+<!--        Use this script for 2 popups (second one with a timer and music starts after 1 second)       <script>document.addEventListener('click', clicked); function clicked(){Swal.close();document.removeEventListener('click', clicked);Swal.fire({icon: 'success',title: 'Success!',timer: 1000,timerProgressBar: true,allowOutsideClick: false,allowEscapeKey: false,allowEnterKey: false,showConfirmButton: false,}).then((result)=>{if(result.dismiss===Swal.DismissReason.timer){document.getElementById('musicID').play();}});}</script>-->
 <!--        Use this script for 1 popup (music starts immediately after pressing ok)                    --><script> document.addEventListener('click', clicked); function clicked(){Swal.close();document.removeEventListener('click', clicked);document.getElementById('musicID').play();}</script>
-<script>Swal.fire('Press OK to continue', '', 'warning');</script>
+<script>Swal.fire('Press OK or click anywhere to continue', '', 'warning');</script>
 </body>
 
 </html>
