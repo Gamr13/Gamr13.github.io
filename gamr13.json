@@ -1,538 +1,569 @@
 {
-	"Settings": {
-		"ItemWidth": 150,
-		"ItemHeight": 150,
-		"ItemTextSize": 14,
-		"StartupMessage": "Welcome to Gamr13's AppStore.",
-		"MessageTime": 3
-	},
+    "Settings":{
+        "ItemWidth": 150,
+        "ItemHeight": 150,
+        "ItemTextSize": 14,
+        "StartupMessage": "Welcome to Gamr13 on XBOX",
+        "MessageTime": 3
+    },
 
-	"Items": [
+    "Items":[
 
-		{
-			"Title": "Dom's Discord",
-			"Group": "Gamr13",
-			"Icon": "https://it.moobion.com/wp-content/uploads/2020/11/discord-logo.png",
-			"Width": 80,
-			"Height": 80,
-			"Stretched": false,
-			"Tag": "Join for Guides & Support!",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-				"Text": "Join",
-				"Type": "link",
-				"Data": "https://discord.gg/QJNCXD2UZG"
-			}]
-		},
+        {
+            "Title": "DISCORD",
+            "Group": "Gamr13",
+            "Icon": "https://it.moobion.com/wp-content/uploads/2020/11/discord-logo.png",
+            "Width": 80,
+            "Height": 80,
+            "Stretched": false,
+            "Tag": "JOIN",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Join",
+                    "Type":"link",
+                    "Data": "https://discord.gg/QJNCXD2UZG"
+                }
+            ]
+        },
 
-		{
-			"Title": "Donate",
-			"Group": "Gamr13",
-			"Icon": "https://cdn0.iconfinder.com/data/icons/shift-ecommerce/32/Paypal-128.png",
-			"Width": 80,
-			"Height": 80,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-				"Text": "Donate",
-				"Type": "link",
-				"Data": "https://www.paypal.com/paypalme/TobyMCS"
-			}]
-		},
+        {
+            "Title": "DONATE",
+            "Group": "Gamr13",
+            "Icon": "https://cdn0.iconfinder.com/data/icons/shift-ecommerce/32/Paypal-128.png",
+            "Width": 80,
+            "Height": 80,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Donate",
+                    "Type":"link",
+                    "Data": "https://www.paypal.com/paypalme/TobyMCS"
+                }
+            ]
+        },
 
-		{
-			"Title": "Patreon",
-			"Group": "Gamr13",
-			"Icon": "https://spacerescuecodepinkgame.com/wp-content/uploads/2021/01/patreon-logo.png",
-			"Width": 80,
-			"Height": 80,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-				"Text": "Donate",
-				"Type": "link",
-				"Data": "https://www.patreon.com/gamr13"
-			}]
-		},
+        {
+            "Title": "PATREON",
+            "Group": "Gamr13",
+            "Icon": "https://spacerescuecodepinkgame.com/wp-content/uploads/2021/01/patreon-logo.png",
+            "Width": 80,
+            "Height": 80,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Donate",
+                    "Type":"link",
+                    "Data": "https://www.patreon.com/gamr13"
+                }
+            ]
+        },
 
-		{
-			"Title": "Twitter",
-			"Group": "Gamr13",
-			"Icon": "https://logovector.net/wp-content/uploads/2014/08/Twitter-2012-Positive-logo-195x195.png",
-			"Width": 80,
-			"Height": 80,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-				"Text": "Donate",
-				"Type": "link",
-				"Data": "https://twitter.com/gamr12"
-			}]
-		},
+        {
+            "Title": "TWITTER",
+            "Group": "Gamr13",
+            "Icon": "https://logovector.net/wp-content/uploads/2014/08/Twitter-2012-Positive-logo-195x195.png",
+            "Width": 80,
+            "Height": 80,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Donate",
+                    "Type":"link",
+                    "Data": "https://twitter.com/gamr12"
+                }
+            ]
+        },
 
-		{
-			"Title": "YouTube",
-			"Group": "Gamr13",
-			"Icon": "https://www.onsist.com/wp-content/uploads/2018/03/youtube-logo-icon-transparent-32-180x180.png",
-			"Width": 80,
-			"Height": 80,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-				"Text": "Donate",
-				"Type": "link",
-				"Data": "https://youtube.com/c/gamr13"
-			}]
-		},
-
-
-		{
-			"Title": "RetroArch",
-			"Group": "Emulators",
-			"Icon": "https://gamr13.github.io/img/retroarch.png",
-			"Width": 150,
-			"Height": 135,
-			"Stretched": false,
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9NNQZL5M5VJ1"
-				},
-				{
-					"Text": "Guide",
-					"Type": "link",
-					"Data": "http://discord.gg/dominater01"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://drive.google.com/drive/folders/10tpml5R0IEhCccvwgGkJn3tqsoo0Wka-?usp=sharing"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "RetroArch is a multi-emulator front-end including consoles up to PS2 and Wii."
-				}
-			]
-		},
+        {
+            "Title": "YOUTUBE",
+            "Group": "Gamr13",
+            "Icon": "https://www.onsist.com/wp-content/uploads/2018/03/youtube-logo-icon-transparent-32-180x180.png",
+            "Width": 80,
+            "Height": 80,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Donate",
+                    "Type":"link",
+                    "Data": "https://youtube.com/c/gamr13"
+                }
+            ]
+        },
 
 
-		{
-			"Title": "RetriX Gold",
-			"Group": "Emulators",
-			"Icon": "https://gamr13.github.io/img/retrix.png",
-			"Width": 120,
-			"Height": 120,
-			"Stretched": false,
-			"Tag": "Featured!",
-			"TagColor": "Blue",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9NZTKKSTJQSD"
-				},
-				{
-					"Text": "Activate Cores",
-					"Type": "uri",
-					"Data": "rgxactivate::ms"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://retrix.astifan.online/"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "RetriX is the first Libretro front end that is optimized for multiple input methods: gamepad, mouse + keyboard and touch are all first class citizens."
-				}
-			]
-		},
+        {
+            "Title": "RETROARCH",
+            "Group": "Emulators",
+            "Icon": "https://gamr13.github.io/img/retroarch.png",
+            "Width": 150,
+            "Height": 135,
+            "Stretched": false,
+            "Tag": "FEATURED",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9NNQZL5M5VJ1"
+                },
+                {
+                    "Text" : "Guide",
+                    "Type":"link",
+                    "Data": "http://discord.gg/dominater01"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type":"link",
+                    "Data": "https://drive.google.com/drive/folders/10tpml5R0IEhCccvwgGkJn3tqsoo0Wka-?usp=sharing"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "RetroArch is a multi-emulator front-end including consoles up to PS2 and Wii."
+                }
+            ]
+        },
 
-		{
-			"Title": "Retro Pass",
-			"Group": "TOOLS",
-			"Icon": "https://gamr13.github.io/img/retropass.png",
-			"Width": 150,
-			"Height": 130,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9NCNBZ75J0CJ"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/retropassdev/RetroPass/releases/download/RetroPass_v1.0.3/RetroPass_v1.0.3.zip"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/retropassdev/RetroPass"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "Retro Pass is a simple frontend for RetroArch running on Xbox. The UI is similar to that of the Game Pass / My Games & Apps section of Xbox for a familiar feel."
-				}
-			]
-		},
+        
+        {
+            "Title": "RETRIXGOLD",
+            "Group": "Emulators",
+            "Icon": "https://gamr13.github.io/img/retrix.png",
+            "Width": 120,
+            "Height": 120,
+            "Stretched": false,
+            "Tag": "FEATURED",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9NZTKKSTJQSD"
+                },
+                {
+                    "Text" : "Activate Cores",
+                    "Type":"uri",
+                    "Data": "rgxactivate::ms"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://retrix.astifan.online/"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "RetriX is the first Libretro front end that is optimized for multiple input methods: gamepad, mouse + keyboard and touch are all first class citizens."
+                }
+            ]
+        },
 
-		{
-			"Title": "DurangoFTP",
-			"Group": "TOOLS",
-			"Icon": "https://gamr13.github.io/img/FTP.jpg",
-			"Width": 150,
-			"Height": 130,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9N77VJP33LKS"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/Dantes-Dungeon/DURANGO-FTP/releases/download/v1.1/DURANGO-FTP-Release-1.1.zip"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/Dantes-Dungeon/DURANGO-FTP"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "Transfer files wirelessly on your local network!"
-				}
-			]
-		},
+        {
+            "Title": "RETROPASS",
+            "Group": "TOOLS",
+            "Icon": "https://gamr13.github.io/img/retropass.png",
+            "Width": 150,
+            "Height": 130,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9NCNBZ75J0CJ"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/retropassdev/RetroPass/releases/download/RetroPass_v1.0.3/RetroPass_v1.0.3.zip"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/retropassdev/RetroPass"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "Retro Pass is a simple frontend for RetroArch running on Xbox. The UI is similar to that of the Game Pass / My Games & Apps section of Xbox for a familiar feel."
+                }
+            ]
+        },
 
-
-		{
-			"Title": "PPSSPP",
-			"Group": "Emulators",
-			"Icon": "https://gamr13.github.io/img/pspppGold.jpg",
-			"Width": 150,
-			"Height": 130,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9P33R6LNH6P5"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://www.mediafire.com/file/9e0l7f6mugoaan3/PPSSPP_%2528v1.12.3-1069%2529.7z/file"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/hrydgard/ppsspp"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "PPSSPP is a free and open-source PSP emulator."
-				}
-			]
-		},
-
-
-		{
-			"Title": "DuckStation",
-			"Group": "Emulators",
-			"Icon": "https://gamr13.github.io/img/duck.png",
-			"Width": 150,
-			"Height": 130,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9PL2BJWXS1Z8"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/stenzek/duckstation/releases/download/latest/duckstation-uwp.appx"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/stenzek/duckstation"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "DuckStation is a free and open-source PS1 / PSX emulator."
-				}
-			]
-		},
+        {
+            "Title": "DURANGO FTP",
+            "Group": "TOOLS",
+            "Icon": "https://gamr13.github.io/img/FTP.jpg",
+            "Width": 150,
+            "Height": 130,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9N77VJP33LKS"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/Dantes-Dungeon/DURANGO-FTP/releases/download/v1.1/DURANGO-FTP-Release-1.1.zip"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/Dantes-Dungeon/DURANGO-FTP"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "Transfer files wirelessly on your local network!"
+                }
+            ]
+        },
 
 
-		{
-			"Title": "Flycast",
-			"Group": "Emulators",
-			"Icon": "https://gamr13.github.io/img/flycast.png",
-			"Width": 150,
-			"Height": 130,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9N269XJ9HNCJ"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/flyinghead/flycast/releases/download/v1.3/flycast-1.3.appx"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/flyinghead/flycast"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "Flycast is a free and open-source Dreamcast emulator."
-				}
-			]
-		},
+        {
+            "Title": "PPSSPP",
+            "Group": "Emulators",
+            "Icon": "https://gamr13.github.io/img/pspppGold.jpg",
+            "Width": 150,
+            "Height": 130,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9P33R6LNH6P5"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://www.mediafire.com/file/9e0l7f6mugoaan3/PPSSPP_%2528v1.12.3-1069%2529.7z/file"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/hrydgard/ppsspp"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "PPSSPP is a free and open-source PSP emulator."
+                }
+            ]
+        },
 
 
-		{
-			"Title": "Moonlight",
-			"Group": "TOOLS",
-			"Icon": "https://gamr13.github.io/img/Moonlight.PNG",
-			"Width": 150,
-			"Height": 80,
-			"Stretched": true,
-			"Tag": "FEATURED",
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9MW1BS08ZBTH"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/TheElixZammuto/moonlight-xbox/releases/download/1.9.1/moonlight-xbox-dx_1.9.1.0_x64.msixbundle"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/TheElixZammuto/moonlight-xbox"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "Allows you to stream your PC games to Xbox! Developed and maintained by Elix!"
-				}
-			]
-		},
+        {
+            "Title": "DUCKSTATION",
+            "Group": "Emulators",
+            "Icon": "https://gamr13.github.io/img/duck.png",
+            "Width": 150,
+            "Height": 130,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9PL2BJWXS1Z8"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/stenzek/duckstation/releases/download/latest/duckstation-uwp.appx"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/stenzek/duckstation"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "DuckStation is a free and open-source PS1 / PSX emulator."
+                }
+            ]
+        },
 
 
-		{
-			"Title": "Devilution X",
-			"Group": "Games",
-			"Icon": "https://gamr13.github.io/img/DvX.png",
-			"Width": 150,
-			"Height": 130,
-			"Stretched": false,
-			"TagColor": "Gold",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9NNBZ8F71VDF"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-xbox-one-series.zip"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/diasurgical/devilutionX"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "DevilutionX is a source port of Diablo and Hellfire that strives to make it simple to run the game while providing engine improvements, bugfixes, and some optional quality of life features."
-				}
-			]
-		},
+        {
+            "Title": "FLYCAST",
+            "Group": "Emulators",
+            "Icon": "https://gamr13.github.io/img/flycast.png",
+            "Width": 150,
+            "Height": 130,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9N269XJ9HNCJ"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/flyinghead/flycast/releases/download/v1.3/flycast-1.3.appx"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/flyinghead/flycast"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "Flycast is a free and open-source Dreamcast emulator."
+                }
+            ]
+        },
 
 
-		{
-			"Title": "Sonic Time Twisted",
-			"Group": "Games",
-			"Icon": "https://gamr13.github.io/img/STT.png",
-			"Width": 150,
-			"Height": 130,
-			"Stretched": false,
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9PGCZJM1GWF8"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://www.mediafire.com/file/74shtqbyzr4q2dg/Sonic_Time_Twisted_%255BUnofficial%255D_%2528v1.1.2.0%2529.appx/file"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/overbound/SonicTimeTwisted"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "Sonic Time Twisted is an unofficial classic-style Sonic the Hedgehog fangame."
-				}
-			]
-		},
+        {
+            "Title": "MOOMLIGHT",
+            "Group": "TOOLS",
+            "Icon": "https://gamr13.github.io/img/Moonlight.PNG",
+            "Width": 150,
+            "Height": 80,
+            "Stretched": true,
+            "Tag": "FEATURED",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9MW1BS08ZBTH"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/TheElixZammuto/moonlight-xbox/releases/download/1.9.1/moonlight-xbox-dx_1.9.1.0_x64.msixbundle"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/TheElixZammuto/moonlight-xbox"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "Allows you to stream your PC games to Xbox! Developed and maintained by Elix!"
+                }
+            ]
+        },
 
 
-		{
-			"Title": "SONIC 1 SMS Remake",
-			"Group": "Games",
-			"Icon": "https://gamr13.github.io/img/Son1SMS.gif",
-			"Width": 150,
-			"Height": 140,
-			"Stretched": false,
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9P2Q4761SRS6"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/MDashK/sonic-1-sms-remake-xbox/releases/download/v1.1.h-xbox/Sonic_1_SMS_Remake_XboxOne.appx"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/MDashK/sonic-1-sms-remake-xbox"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "This game is a redesigned version of the Master System released by SEGA in 1991."
-				}
-			]
-		},
+        {
+            "Title": "DEVILUTIONX",
+            "Group": "Games",
+            "Icon": "https://gamr13.github.io/img/DvX.png",
+            "Width": 150,
+            "Height": 130,
+            "Stretched": false,
+            "Tag": "FEATURED",
+            "TagColor": "Gold",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9NNBZ8F71VDF"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-xbox-one-series.zip"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/diasurgical/devilutionX"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "DevilutionX is a source port of Diablo and Hellfire that strives to make it simple to run the game while providing engine improvements, bugfixes, and some optional quality of life features."
+                }
+            ]
+        },
 
 
-		{
-			"Title": "Sonic 2 SMS Remake",
-			"Group": "Games",
-			"Icon": "https://gamr13.github.io/img/Son2SMS.png",
-			"Width": 150,
-			"Height": 140,
-			"Stretched": false,
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Install",
-					"Type": "uri",
-					"Data": "ms-windows-store://pdp/?productid=9P4FCNNV6B2X"
-				},
-				{
-					"Text": "Dev Mode",
-					"Type": "link",
-					"Data": "https://github.com/MDashK/sonic-2-sms-remake-xbox/releases/download/v2.0.d-xbox/Sonic_2_SMS_Remake_Xbox.appx"
-				},
-				{
-					"Text": "Official Page",
-					"Type": "link",
-					"Data": "https://github.com/MDashK/sonic-2-sms-remake-xbox"
-				},
-				{
-					"Text": "About",
-					"Type": "dialog",
-					"Data": "This game is a redesigned version of the Master System released by SEGA in 1992."
-				}
-			]
-		},
+        {
+            "Title": "SONIC",
+            "Group": "Games",
+            "Icon": "https://gamr13.github.io/img/STT.png",
+            "Width": 150,
+            "Height": 130,
+            "Stretched": false,
+            "Tag": "TIME TWISTED",
+            "TagColor": "White",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9PGCZJM1GWF8"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://www.mediafire.com/file/74shtqbyzr4q2dg/Sonic_Time_Twisted_%255BUnofficial%255D_%2528v1.1.2.0%2529.appx/file"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/overbound/SonicTimeTwisted"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "Sonic Time Twisted is an unofficial classic-style Sonic the Hedgehog fangame."
+                }
+            ]
+        },
 
 
-		{
-			"Title": "ABOUT",
-			"Group": "MORE",
-			"Icon": "https://github.com/basharast/AstifanSystem/raw/main/assets/logo.png",
-			"Width": 90,
-			"Height": 90,
-			"Stretched": false,
-			"Tag": "",
-			"TagColor": "Blue",
-			"Border": 1,
-			"Color": "#663949ab",
-			"Menu": [{
-					"Text": "Developer",
-					"Type": "message",
-					"Data": "This app developed by Bashar Astifan"
-				},
-				{
-					"Text": "GitHub",
-					"Type": "link",
-					"Data": "https://github.com/basharast/"
-				}
-			]
-		}
+        {
+            "Title": "SONIC 2",
+            "Group": "Games",
+            "Icon": "https://gamr13.github.io/img/Son1SMS.gif",
+            "Width": 150,
+            "Height": 140,
+            "Stretched": false,
+            "Tag": "SMS REMAKE ",
+            "TagColor": "Blue",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9P2Q4761SRS6"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/MDashK/sonic-1-sms-remake-xbox/releases/download/v1.1.h-xbox/Sonic_1_SMS_Remake_XboxOne.appx"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/MDashK/sonic-1-sms-remake-xbox"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "This game is a redesigned version of the Master System released by SEGA in 1991."
+                }
+            ]
+        },
 
-	]
+
+        {
+            "Title": "SONIC 2",
+            "Group": "Games",
+            "Icon": "https://gamr13.github.io/img/Son2SMS.png",
+            "Width": 150,
+            "Height": 140,
+            "Stretched": false,
+            "Tag": "SMS REMAKE ",
+            "TagColor": "Blue",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Install",
+                    "Type":"uri",
+                    "Data": "ms-windows-store://pdp/?productid=9P4FCNNV6B2X"
+                },
+                {
+                    "Text" : "Dev Mode",
+                    "Type": "link",
+                    "Data": "https://github.com/MDashK/sonic-2-sms-remake-xbox/releases/download/v2.0.d-xbox/Sonic_2_SMS_Remake_Xbox.appx"
+                },
+                {
+                    "Text" : "Official Page",
+                    "Type":"link",
+                    "Data": "https://github.com/MDashK/sonic-2-sms-remake-xbox"
+                },
+                {
+                    "Text" : "About",
+                    "Type":"dialog",
+                    "Data": "This game is a redesigned version of the Master System released by SEGA in 1992."
+                }
+            ]
+        },
+
+
+        {
+            "Title": "ABOUT",
+            "Group": "MORE",
+            "Icon": "https://github.com/basharast/AstifanSystem/raw/main/assets/logo.png",
+            "Width": 90,
+            "Height": 90,
+            "Stretched": false,
+            "Tag": "",
+            "TagColor": "Blue",
+            "Border": 1,
+            "Color": "#663949ab",
+            "Menu":[
+                {
+                    "Text" : "Developer",
+                    "Type":"message",
+                    "Data": "This app developed by Bashar Astifan"
+                },
+                {
+                    "Text" : "GitHub",
+                    "Type":"link",
+                    "Data": "https://github.com/basharast/"
+                }
+            ]
+        }
+
+    ]
 }
