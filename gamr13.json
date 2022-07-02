@@ -142,7 +142,7 @@
 			"Height": 120,
 			"Stretched": false,
 			"Tag": "Featured!",
-			"TagColor": "Blue",
+			"TagColor": "Gold",
 			"Border": 1,
 			"Color": "#663949ab",
 			"Menu": [{
@@ -518,7 +518,7 @@
 			"Height": 90,
 			"Stretched": false,
 			"Tag": "",
-			"TagColor": "Blue",
+			"TagColor": "Gold",
 			"Border": 1,
 			"Color": "#663949ab",
 			"Menu": [{
