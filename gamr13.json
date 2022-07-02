@@ -3,20 +3,20 @@
         "ItemWidth": 150,
         "ItemHeight": 150,
         "ItemTextSize": 14,
-        "StartupMessage": "Welcome to Gamr13 on XBOX",
+        "StartupMessage": "Welcome to Gamr13's AppStore.",
         "MessageTime": 3
     },
 
     "Items":[
 
         {
-            "Title": "DISCORD",
+            "Title": "Dom's Discord",
             "Group": "Gamr13",
             "Icon": "https://it.moobion.com/wp-content/uploads/2020/11/discord-logo.png",
             "Width": 80,
             "Height": 80,
             "Stretched": false,
-            "Tag": "JOIN",
+            "Tag": "Join for Guides & Support!",
             "TagColor": "Gold",
             "Border": 1,
             "Color": "#663949ab",
@@ -30,7 +30,7 @@
         },
 
         {
-            "Title": "DONATE",
+            "Title": "Donate",
             "Group": "Gamr13",
             "Icon": "https://cdn0.iconfinder.com/data/icons/shift-ecommerce/32/Paypal-128.png",
             "Width": 80,
@@ -50,7 +50,7 @@
         },
 
         {
-            "Title": "PATREON",
+            "Title": "Patreon",
             "Group": "Gamr13",
             "Icon": "https://spacerescuecodepinkgame.com/wp-content/uploads/2021/01/patreon-logo.png",
             "Width": 80,
@@ -70,7 +70,7 @@
         },
 
         {
-            "Title": "TWITTER",
+            "Title": "Twitter",
             "Group": "Gamr13",
             "Icon": "https://logovector.net/wp-content/uploads/2014/08/Twitter-2012-Positive-logo-195x195.png",
             "Width": 80,
@@ -90,7 +90,7 @@
         },
 
         {
-            "Title": "YOUTUBE",
+            "Title": "YouTube",
             "Group": "Gamr13",
             "Icon": "https://www.onsist.com/wp-content/uploads/2018/03/youtube-logo-icon-transparent-32-180x180.png",
             "Width": 80,
@@ -111,13 +111,12 @@
 
 
         {
-            "Title": "RETROARCH",
+            "Title": "RetroArch",
             "Group": "Emulators",
             "Icon": "https://gamr13.github.io/img/retroarch.png",
             "Width": 150,
             "Height": 135,
             "Stretched": false,
-            "Tag": "FEATURED",
             "TagColor": "Gold",
             "Border": 1,
             "Color": "#663949ab",
@@ -147,14 +146,14 @@
 
         
         {
-            "Title": "RETRIXGOLD",
+            "Title": "RetriX Gold",
             "Group": "Emulators",
             "Icon": "https://gamr13.github.io/img/retrix.png",
             "Width": 120,
             "Height": 120,
             "Stretched": false,
-            "Tag": "FEATURED",
-            "TagColor": "Gold",
+            "Tag": "Featured!",
+            "TagColor": "Blue",
             "Border": 1,
             "Color": "#663949ab",
             "Menu":[
@@ -182,7 +181,7 @@
         },
 
         {
-            "Title": "RETROPASS",
+            "Title": "Retro Pass",
             "Group": "TOOLS",
             "Icon": "https://gamr13.github.io/img/retropass.png",
             "Width": 150,
@@ -217,7 +216,7 @@
         },
 
         {
-            "Title": "DURANGO FTP",
+            "Title": "DurangoFTP",
             "Group": "TOOLS",
             "Icon": "https://gamr13.github.io/img/FTP.jpg",
             "Width": 150,
@@ -289,7 +288,7 @@
 
 
         {
-            "Title": "DUCKSTATION",
+            "Title": "DuckStation",
             "Group": "Emulators",
             "Icon": "https://gamr13.github.io/img/duck.png",
             "Width": 150,
@@ -325,7 +324,7 @@
 
 
         {
-            "Title": "FLYCAST",
+            "Title": "Flycast",
             "Group": "Emulators",
             "Icon": "https://gamr13.github.io/img/flycast.png",
             "Width": 150,
@@ -361,7 +360,7 @@
 
 
         {
-            "Title": "MOOMLIGHT",
+            "Title": "Moonlight",
             "Group": "TOOLS",
             "Icon": "https://gamr13.github.io/img/Moonlight.PNG",
             "Width": 150,
@@ -397,13 +396,12 @@
 
 
         {
-            "Title": "DEVILUTIONX",
+            "Title": "Devilution X",
             "Group": "Games",
             "Icon": "https://gamr13.github.io/img/DvX.png",
             "Width": 150,
             "Height": 130,
             "Stretched": false,
-            "Tag": "FEATURED",
             "TagColor": "Gold",
             "Border": 1,
             "Color": "#663949ab",
@@ -433,14 +431,14 @@
 
 
         {
-            "Title": "SONIC",
+            "Title": "Sonic Time Twisted",
             "Group": "Games",
             "Icon": "https://gamr13.github.io/img/STT.png",
             "Width": 150,
             "Height": 130,
             "Stretched": false,
-            "Tag": "TIME TWISTED",
-            "TagColor": "White",
+            //"Tag": "TIME TWISTED",
+            //"TagColor": "White",
             "Border": 1,
             "Color": "#663949ab",
             "Menu":[
@@ -469,14 +467,14 @@
 
 
         {
-            "Title": "SONIC 2",
+            "Title": "SONIC 1 SMS Remake",
             "Group": "Games",
             "Icon": "https://gamr13.github.io/img/Son1SMS.gif",
             "Width": 150,
             "Height": 140,
             "Stretched": false,
-            "Tag": "SMS REMAKE ",
-            "TagColor": "Blue",
+            //"Tag": "SMS REMAKE ",
+            //"TagColor": "Blue",
             "Border": 1,
             "Color": "#663949ab",
             "Menu":[
@@ -505,14 +503,14 @@
 
 
         {
-            "Title": "SONIC 2",
+            "Title": "Sonic 2 SMS Remake",
             "Group": "Games",
             "Icon": "https://gamr13.github.io/img/Son2SMS.png",
             "Width": 150,
             "Height": 140,
             "Stretched": false,
-            "Tag": "SMS REMAKE ",
-            "TagColor": "Blue",
+            //"Tag": "SMS REMAKE ",
+            //"TagColor": "Blue",
             "Border": 1,
             "Color": "#663949ab",
             "Menu":[
