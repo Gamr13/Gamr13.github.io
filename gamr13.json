@@ -164,7 +164,7 @@
                     "Data": "ms-windows-store://pdp/?productid=9NZTKKSTJQSD"
                 },
                 {
-                    "Text" : "Activate Cores",
+                    "Text" : "Install Cores",
                     "Type":"uri",
                     "Data": "rgxactivate::ms"
                 },
