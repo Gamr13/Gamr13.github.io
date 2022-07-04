@@ -3,14 +3,14 @@
         "ItemWidth": 150,
         "ItemHeight": 150,
         "ItemTextSize": 14,
-        "StartupMessage": "Welcome to Gamr13's App Store!",
+        "StartupMessage": "Please download the latest App Store app!",
         "MessageTime": 3
     },
 
     "Items":[
 
         {
-            "Title": "Dom's Discord",
+            "Title": "OUTDATED",
             "Group": "Gamr13",
             "Icon": "https://it.moobion.com/wp-content/uploads/2020/11/discord-logo.png",
             "Width": 80,
@@ -30,7 +30,7 @@
         },
 
         {
-            "Title": "Donate",
+            "Title": "OUTDATED",
             "Group": "Gamr13",
             "Icon": "https://cdn0.iconfinder.com/data/icons/shift-ecommerce/32/Paypal-128.png",
             "Width": 80,
@@ -50,7 +50,7 @@
         },
 
         {
-            "Title": "Patreon",
+            "Title": "OUTDATED",
             "Group": "Gamr13",
             "Icon": "https://spacerescuecodepinkgame.com/wp-content/uploads/2021/01/patreon-logo.png",
             "Width": 80,
@@ -70,7 +70,7 @@
         },
 
         {
-            "Title": "Twitter",
+            "Title": "OUTDATED",
             "Group": "Gamr13",
             "Icon": "https://logovector.net/wp-content/uploads/2014/08/Twitter-2012-Positive-logo-195x195.png",
             "Width": 80,
@@ -90,7 +90,7 @@
         },
 
         {
-            "Title": "YouTube",
+            "Title": "OUTDATED",
             "Group": "Gamr13",
             "Icon": "https://www.onsist.com/wp-content/uploads/2018/03/youtube-logo-icon-transparent-32-180x180.png",
             "Width": 80,
